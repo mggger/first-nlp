@@ -1,4 +1,4 @@
-from DataPrepare import DataPrepare
+from data_prepare import DataPrepare
 from bilsmt_crf import BiLSTM_CRF
 from torch import optim
 import torch
