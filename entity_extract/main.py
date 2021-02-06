@@ -28,8 +28,6 @@ def train(dp: DataPrepare):
         # calling optimizer.step()
         loss.backward()
         optimizer.step()
-
-    # Check predictions after training
     return model
 
 
